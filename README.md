@@ -2,7 +2,7 @@
 
 I decided to do a project that I have wanted to do for a long time. It is a one page site where I will try to practice my knowledge of HTML and CSS and complete it as I progress. 
 
-:blond_haired_person:  It's a project I want to do, too, to think about something else in a not very fun moment.
+:blond_haired_woman:  It's a project I want to do, too, to think about something else in a not very fun moment.
 
 ## The details of this fun project :writing_hand:
 
