@@ -1,0 +1,76 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leckerli-one-regular {
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    background: url('Women\ who\ made\ the\ web.png') no-repeat center center/cover;
+    height: 100vh; /* 100% de la hauteur de la fenêtre */
+    display: flex;
+    justify-content: flex-start;
+    /*padding-left: 20px;*/
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur en overlay */
+    background-color: #801231;
+    position: relative;
+}
+
+h1 {
+    font-family: "Leckerli One", cursive;
+    font-size: 3.7rem;
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative; /* Nécessaire pour les propriétés top, left, etc. */
+    bottom: 80px; /* Déplace le titre vers le bas de 50 pixels */ 
+    left: 20px; /* Déplace le titre vers la droite de 20 pixels */
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1); /* Couleur du fond (semi-transparente) */
+    z-index: 0;
+}
+
+nav {
+    background-color: #801231;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
