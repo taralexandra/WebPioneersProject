@@ -8,7 +8,7 @@ I decided to do a project that I have wanted to do for a long time. It is a one 
 
 ### What is it about ? :speech_balloon:
 
-I wanted to dedicate this site to pioneering women in the world of technology and essentially, the web. 
+I wanted to dedicate this site to pioneering women in the world of technology and essentially, the web ! 
 
 ### What this project will looks like by the end ? :mag_right: 
 
